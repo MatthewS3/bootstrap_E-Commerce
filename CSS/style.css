@@ -6,8 +6,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* navbar */
 img[alt="logo"] {
     width: 12rem;
+}
+.container {
+    text-align: center;
+}
+/* card */
+#products :is(.card) {
+    width: 15rem;
 }
